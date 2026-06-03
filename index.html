@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lulu & Agus</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>LULU & AGUS</h1>
+    <p class="subtitulo">Nos casamos</p>
+
+    <div class="botones">
+      <button onclick="mostrarSeccion('confirmar')">Confirmacion</button>
+      <button onclick="mostrarSeccion('ubicacion')">Fecha y Lugar</button>
+      <button onclick="mostrarSeccion('dresscode')">Dresscode</button>
+      <button onclick="mostrarSeccion('regalos')">Regalos</button>
+    </div>
+  </div>
+</div>
+
+<section id="confirmar">
+  <h2>Confirmar asistencia</h2>
+  <p>Hacé clic en el botón y completá el formulario de Google:</p>
+  <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdTow8KaF6LScIlCsw5wsw200JeMPw7BMThRrCrGV5DsnBQSQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+    Completar formulario
+  </a>
+</section>
+
+<section id="ubicacion">
+  <h2>Fecha y Lugar</h2>
+
+  <h3>📅 Fecha: </h3>
+  <p><strong>🗓️ 14 de Noviembre de 2026</strong> a las <strong>10:00 hs</strong></p>
+  <div id="countdown" class="countdown">Cargando contador...</div>
+
+  <h3>📅 Lugar: </h3>
+  <p><strong>📍 Salón de eventos “La Mezquina”</strong></p>
+
+  <p>
+    <a class="btn"
+      href="https://www.google.com/maps?q=La+mezquina+casa+quinta,+Catamarca+3185,+B1847+Claypole,+Provincia+de+Buenos+Aires"
+      target="_blank">
+      Ver en Google Maps
+    </a>
+  </p>
+</section>
+
+<section id="dresscode">
+  <h2>Dresscode</h2>
+  <img src="dresscode.jpg">
+</section>
+
+<section id="regalos">
+  <h2>Regalos</h2>
+  <p>
+    La heladera, la plancha y la licuadora ya las tenemos.
+  </p>
+  <p>
+    Se acepta cualquier regalo, pero lo que más necesitamos son sponsors para la luna de miel ✈️
+  </p>
+  <div class="CBU">
+    <p><b>CBU:</b> 4530000800016700018959</p>
+    <p><b>Alias:</b> LuluyAgus14.11</p>
+  </div>
+</section>
+
+<footer>
+<p>Lulu & Agus ❤️</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
